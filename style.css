@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  text-shadow: 0 0 10px black;
+  font-family: "Solitreo", cursive;
+  background: linear-gradient(#0077b6, #90e0ef);
+  color: white;
+}
+
+h1 {
+  margin: 20px auto 0;
+}
+
+.side-note {
+  font-size: 13px;
+  margin: 0 auto 30px;
+}
+
+.gift-cover {
+  background-image: url(images/gift-cover.jpg);
+  background-size: cover;
+  max-width: 800px;
+  width: 400px;
+  height: 400px;
+  border: 5px solid whitesmoke;
+  border-radius: 10px;
+  margin: 20px auto 60px;
+}
+
+#img-mom:hover {
+  background-image: url(images/mom.JPG);
+}
+
+#img-read:hover {
+  background-image: url(images/reading.gif);
+  width: 1000px;
+}
+
+#img-angry:hover {
+  background-image: url(images/angry.gif);
+}
+
+#img-cheers {
+  height: 200px;
+}
+
+#img-cheers:hover {
+  background-image: url(images/cheers.gif);
+}
+
+#footer {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 13px;
+  margin: 0 auto 5px;
+  color: black;
+  text-shadow: none;
+}
